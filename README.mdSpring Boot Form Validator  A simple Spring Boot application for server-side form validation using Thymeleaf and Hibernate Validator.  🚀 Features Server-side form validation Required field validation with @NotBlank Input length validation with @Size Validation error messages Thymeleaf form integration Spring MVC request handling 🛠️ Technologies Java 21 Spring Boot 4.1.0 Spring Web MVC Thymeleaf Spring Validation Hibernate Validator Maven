@@ -1,0 +1,34 @@
+Spring Boot Form Validator
+
+A simple Spring Boot application for server-side form validation using Thymeleaf and Hibernate Validator.
+
+🚀 Features
+.) Server-side form validation
+.) Required field validation with @NotBlank
+.) Input length validation with @Size
+.)Validation error messages
+.)Thymeleaf form integration
+.)Spring MVC request handling
+
+🛠️ Technologies
+Java 21
+Spring Boot 4.1.0
+Spring Web MVC
+Thymeleaf
+Spring Validation
+Hibernate Validator
+Maven
+
+📂 Project Structure
+src/
+├── main/
+│   ├── java/              # Java source code
+│   └── resources/
+│       ├── templates/     # Thymeleaf HTML files
+│       └── application.properties
+└── test/                  # Test code
+
+pom.xml                    # Maven configuration
+
+🎯 Purpose
+This project demonstrates how to implement server-side validation in Spring Boot and display validation errors through a Thymeleaf form.

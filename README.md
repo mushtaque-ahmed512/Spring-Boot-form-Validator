@@ -42,24 +42,24 @@ Client-side checks in the browser can be bypassed, so important validation must 
 | Dev Tools       | Spring Boot DevTools                    |
 
 # Project Structure
-Spring-Boot-form-Validator/
-├── .mvn/wrapper/                          # Maven Wrapper configuration
-├── src/
-│   ├── main/
-│   │   ├── java/com/validate/
+Spring-Boot-form-Validator/<br>
+├── .mvn/wrapper/<br>                         # Maven Wrapper configuration
+├── src/<br>
+│   ├── main/<br>
+│   │   ├── java/com/validate/<br>
 │   │   │   ├── SpringValidatorApplication # Application entry point
-│   │   │   ├── controller/
-│   │   │   │   └── MyController           # Handles form display and submission
-│   │   │   └── entities/
-│   │   │       └── LoginData              # Form model with validation constraints
-│   │   └── resources/
-│   │       ├── templates/
+│   │   │   ├── controller/<br>
+│   │   │   │   └── MyController <br>          # Handles form display and submission
+│   │   │   └── entities/<br>
+│   │   │       └── LoginData  <br>            # Form model with validation constraints
+│   │   └── resources/<br>
+│   │       ├── templates/<br>
 │   │       │   ├── form.html              # Login form with error display
-│   │       │   └── success.html           # Page shown after valid submission
-│   │       └── application.properties     # Application configuration
-│   └── test/java/com/validate/            # Application context test
-├── mvnw / mvnw.cmd                        # Maven Wrapper scripts
-└── pom.xml                                # Dependencies and build configuration
+│   │       │   └── success.html <br>          # Page shown after valid submission
+│   │       └── application.properties  <br>   # Application configuration
+│   └── test/java/com/validate/  <br>          # Application context test
+├── mvnw / mvnw.cmd    <br>                    # Maven Wrapper scripts
+└── pom.xml   <br>                             # Dependencies and build configuration
 ```
 
 # Validation Rules

@@ -42,24 +42,24 @@ Client-side checks in the browser can be bypassed, so important validation must 
 | Dev Tools       | Spring Boot DevTools                    |
 
 # Project Structure
-Spring-Boot-form-Validator/<br>
+Spring-Boot-form-Validator/
 ├── .mvn/wrapper/                        
-├── src/<br>
-│   ├── main/<br>
-│   │   ├── java/com/validate/<br>
+├── src/
+│   ├── main/
+│   │   ├── java/com/validate/
 │   │   │   ├── SpringValidatorApplication 
-│   │   │   ├── controller/<br>
-│   │   │   │   └── MyController <br>          
-│   │   │   └── entities/<br>
-│   │   │       └── LoginData  <br>           
-│   │   └── resources/<br>
-│   │       ├── templates/<br>
+│   │   │   ├── controller/
+│   │   │   │   └── MyController        
+│   │   │   └── entities/
+│   │   │       └── LoginData          
+│   │   └── resources/
+│   │       ├── templates/
 │   │       │   ├── form.html              
-│   │       │   └── success.html <br>          
-│   │       └── application.properties  <br>  
-│   └── test/java/com/validate/  <br>          
-├── mvnw / mvnw.cmd    <br>                    
-└── pom.xml   <br>                             
+│   │       │   └── success.html          
+│   │       └── application.properties   
+│   └── test/java/com/validate/          
+├── mvnw / mvnw.cmd                        
+└── pom.xml                              
 ```
 
 # Validation Rules

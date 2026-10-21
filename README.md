@@ -43,23 +43,23 @@ Client-side checks in the browser can be bypassed, so important validation must 
 
 # Project Structure
 Spring-Boot-form-Validator/<br>
-├── .mvn/wrapper/<br>                         # Maven Wrapper configuration
+├── .mvn/wrapper/                        
 ├── src/<br>
 │   ├── main/<br>
 │   │   ├── java/com/validate/<br>
-│   │   │   ├── SpringValidatorApplication # Application entry point
+│   │   │   ├── SpringValidatorApplication 
 │   │   │   ├── controller/<br>
-│   │   │   │   └── MyController <br>          # Handles form display and submission
+│   │   │   │   └── MyController <br>          
 │   │   │   └── entities/<br>
-│   │   │       └── LoginData  <br>            # Form model with validation constraints
+│   │   │       └── LoginData  <br>           
 │   │   └── resources/<br>
 │   │       ├── templates/<br>
-│   │       │   ├── form.html              # Login form with error display
-│   │       │   └── success.html <br>          # Page shown after valid submission
-│   │       └── application.properties  <br>   # Application configuration
-│   └── test/java/com/validate/  <br>          # Application context test
-├── mvnw / mvnw.cmd    <br>                    # Maven Wrapper scripts
-└── pom.xml   <br>                             # Dependencies and build configuration
+│   │       │   ├── form.html              
+│   │       │   └── success.html <br>          
+│   │       └── application.properties  <br>  
+│   └── test/java/com/validate/  <br>          
+├── mvnw / mvnw.cmd    <br>                    
+└── pom.xml   <br>                             
 ```
 
 # Validation Rules
